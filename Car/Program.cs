@@ -22,7 +22,7 @@ namespace Car
                 odometer = 0;
                 fueltank = 60;
 
-                Console.WriteLine($"{color});
+                
                 
             }
             public int Odometer
@@ -35,33 +35,31 @@ namespace Car
             }
 
             public void Info()
-            {
+            { 
                 Console.WriteLine($"Modelname: {modelname}. ");
                 Console.WriteLine($"Markname: {markname}");
                 Console.WriteLine($"Registration number: {regnum}");
                 Console.WriteLine($"Color: {color}");
+                Console.WriteLine($"Current odometer:{Odometer}");
+                Console.WriteLine($"Current fueltank:{Fueltank}");
             }
-            public void GainMeter()
+            
+            public void Drive()
             {
-                Console.WriteLine("'rrrrrrrrrrr'");
-                odometer += 100;
-            }
-            public void Gas()
-            {
-                Console.WriteLine("'sss'");
+                Console.WriteLine("'skrrrrrrrrrrt'");
                 fueltank -= 5;
+                odometer += 100;
             }
         }
         static void Main(string[] args)
         {
-            Car mycar = new Car("modelname", "markname", "123 AAA", "blue");
-            while(mycar.Fueltank <0)
+            Car mycar = new Car("modelname", "markname", "123AAA", "blue");
+            Console.WriteLine($"Current odometer:{mycar.Odometer}");
+            Console.WriteLine($"Current fueltank:{mycar.Fueltank}");
+            while (mycar.Fueltank !=0)
             { 
-                    mycar.GainMeter();
-                    mycar.Gas();
-                    Console.WriteLine($"Current odometer:{mycar.Odometer}");
-                    Console.WriteLine($"Current fueltank:{mycar.Fueltank}");
-                
+
+                    mycar.Drive();
             }
             mycar.Info();
         }

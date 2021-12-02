@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\LogitPe21\\OOPPet\\Car\\Car.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Week14-OOPPet\\Car\\Car.csproj",
       "projectName": "Car",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\LogitPe21\\OOPPet\\Car\\Car.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\Week14-OOPPet\\Car\\Car.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\LogitPe21\\OOPPet\\Car\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\Week14-OOPPet\\Car\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
       }
     }
   }
